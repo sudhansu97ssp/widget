@@ -1,0 +1,53 @@
+.pushStarters_TopProgressBar {
+  top: 1%;
+  left: 5px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+}
+.pushStarters_VideoTitleContainer {
+  position: absolute;
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: inherit;
+  margin-top: 18px;
+
+}
+.pushStarters_FullScreenTopIconContainer {
+  display: flex;
+}
+.pushStarters_MuteUnMuteBtn {
+  width: 40px;
+  cursor: pointer;
+  margin: 0px 10px 10px 10px;
+}
+.pushStarters_VideoTitle {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.pushStarters_TopProgressBarContainer {
+  display: flex;
+  width: inherit;
+}
+
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  /* styles for landscape orientation on screens with max width of 1000px or less */
+  .pushStarters_VideoTitle {
+    font-size: 14px;
+  }
+  .pushStarters_MuteUnMuteBtn {
+    width: 24px;
+  }
+}
